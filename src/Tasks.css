@@ -1,0 +1,39 @@
+.item-list {
+    list-style: none;
+    padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    
+    
+  }
+  
+  .item-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: gray;
+  }
+  
+  .item-list li .trashIcon {
+    font-size: 100px;
+    margin-right: 10px;
+  }
+  
+  .item-list li .text {
+    flex: 1;
+  }
+  
+  .item-list li .button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-list li button {
+    cursor: pointer;
+  }
+  

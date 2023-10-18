@@ -1,0 +1,103 @@
+h1{
+    color: white;
+    
+  }
+
+.mainscreen{
+    background-color:#fabcbc;
+    width: 100%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+
+/* .mainscreen{
+    border: 10px solid;
+} */
+
+.account-button {
+    background-color:white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    width: 150px;
+    height: 40px;
+  }
+  
+  .account-icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .account-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .banner{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .two-boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .my-fights {
+    background-color: #f00;
+    color: #fff;
+  }
+  
+  .other-fights {
+    background-color: #00f;
+    color: #fff;
+  }
+
+
+
+  .two-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:50px;
+    margin-right: 50px;
+  }
+  
+  .my-fights {
+    background-color: #f00;
+    color: #fff;
+  }
+  
+  .other-fights {
+    background-color: #00f;
+    color: #fff;
+  }
+  
+  .active {
+    background-color: #000;
+    color: #fff;
+  }
+  
